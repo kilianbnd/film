@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav id="nav">
+    <h1>GET example</h1>
+    <ul>
+      <li>
+        <a href="#">Accueil</a>
+      </li>
+      <li>
+        <a href="#">Film</a>
+      </li>
+      <li>
+        <a href="#">Séries</a>
+      </li>
+    </ul>
+    <div id="icons"></div>
+  </nav>
+  <div class="api-bar">
+    <a>Studio Ghibli</a><br/>
+    <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/e/eb/Logo_Ghibli.svg/213px-Logo_Ghibli.svg.png?20180630132933"><br/>
+    <button onclick="window.open('https://ghibliapi.vercel.app/films', '_blank')">API</button>
+  </div>
+  <div class="container">
+    <div id="films-container"></div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
